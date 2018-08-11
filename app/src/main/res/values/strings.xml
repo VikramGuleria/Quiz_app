@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">project3</string>
+    <string name="question1">1.Android is licensed under which open source licensing license?</string>
+    <string name="question2">2.Android operating system was acquired by Google in</string>
+    <string name="question3">3.Today fastest growing mobile phone operating system is</string>
+    <string name="question4">4.What Activity method you use to retrieve a reference to an Android view by using the id attribute of a resource XML?
+</string>
+    <string name="question5">6.During an Activity life-cycle, what is the first callback method
+
+invoked by the system?</string>
+    <string name="question6">7.Choose any 2 correct android system names</string>
+    <string name="question7">5.Android O launch year?</string>
+</resources>

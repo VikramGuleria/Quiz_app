@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textCapWords"
+            android:textAllCaps="true"
+            android:layout_margin="16dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            style="@style/question1"
+            android:text="@string/question1" />
+
+        <RadioGroup
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+
+                android:id="@+id/rb1q1"
+
+                style="@style/question"
+                android:text="Gnu’s GPL" />
+
+            <RadioButton
+                android:id="@+id/rb2q1"
+                style="@style/question"
+                android:text="Apache/Mit" />
+
+            <RadioButton
+                android:id="@+id/rb3q1"
+                style="@style/question"
+                android:text="Oss" />
+
+            <RadioButton
+                android:id="@+id/rb4q1"
+                style="@style/question"
+                android:text="Sourceforge" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/question1"
+            android:text="@string/question2" />
+
+        <RadioGroup     android:id="@+id/radio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb1q2"
+                style="@style/question"
+                android:text="2003" />
+
+            <RadioButton
+                android:id="@+id/rb2q2"
+                style="@style/question"
+                android:text="2004" />
+
+            <RadioButton
+                android:id="@+id/rb3q2"
+
+                style="@style/question"
+                android:text="1997" />
+
+            <RadioButton
+                android:id="@+id/rb4q2"
+                style="@style/question"
+                android:text="2005" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/question1"
+            android:text="@string/question3" />
+
+        <RadioGroup
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb1q3"
+                style="@style/question"
+                android:text="Apple's IOS" />
+
+            <RadioButton
+                android:id="@+id/rb2q3"
+                style="@style/question"
+                android:text="Google's Android" />
+
+            <RadioButton
+                android:id="@+id/rb3q3"
+                style="@style/question"
+
+                android:text="Mac OS X" />
+
+            <RadioButton
+                android:id="@+id/rb4q3"
+                style="@style/question"
+                android:text="Black berry OS" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/question1"
+            android:text="@string/question4" />
+
+        <RadioGroup
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb1q4"
+                style="@style/question"
+                android:text="findViewByReference(int id);" />
+
+            <RadioButton
+                android:id="@+id/rb2q4"
+                style="@style/question"
+                android:text=" retrieveResourceById(int id)" />
+
+            <RadioButton
+                android:id="@+id/rb3q4"
+                style="@style/question"
+                android:text="findViewById(int id)" />
+
+            <RadioButton
+                android:id="@+id/rb4q4"
+                style="@style/question"
+                android:text=" findViewById(String id" />
+        </RadioGroup>
+        <TextView
+            style="@style/question1"
+            android:text="@string/question7"/>
+        <EditText
+            android:id="@+id/pie"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="oreo"
+            android:inputType="textCapWords"
+            android:textAllCaps="true"
+            android:layout_margin="16dp"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            style="@style/question1"
+            android:text="@string/question5" />
+        <RadioGroup
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb1q5"
+                style="@style/question"
+                android:text="onStop()" />
+
+            <RadioButton
+                android:id="@+id/rb2q5"
+                style="@style/question"
+                android:text=" onStart()" />
+
+            <RadioButton
+                android:id="@+id/rb3q5"
+                style="@style/question"
+                android:text="onCreate()" />
+
+            <RadioButton
+                android:id="@+id/rb4q5"
+                style="@style/question"
+                android:text="onRestore()" />
+        </RadioGroup>
+        <TextView
+            style="@style/question1"
+            android:text="@string/question6" />
+        <CheckBox
+            android:id="@+id/icecream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/question"
+            android:text="Ice cream Sandwich"/>
+        <CheckBox
+            android:id="@+id/cake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/question"
+            android:text="cake"/>
+        <CheckBox
+            android:id="@+id/donut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/question"
+            android:text="donut"/>
+        <CheckBox
+            android:id="@+id/mango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/question"
+            android:text="Mango"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="Submit"
+                android:onClick="submit"
+                />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/button1"
+                android:text="Clear"
+                android:onClick="clear"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>
